@@ -4,6 +4,7 @@ public class Song
 {
    private String name;
    private int playcount;
+   private int songname;
    //Constructor
    public Song(int playcount, String name, String songname)
    {
@@ -22,7 +23,7 @@ public class Song
 //print method
    public void print()
    {
-         System.out.println("playcount; " + this.playcount + "name " + this.name);
+         System.out.println("playcount; " + this.playcount + "name " + this.name + "songname; " + this.songname);
 
          
    }
