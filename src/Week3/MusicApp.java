@@ -52,19 +52,7 @@ public class MusicApp {
         songs.add(bruises);
 
         
-        for (Song song: songs)
-        {
-            song.print();
-        }
 
-        System.out.println("Attempt to remove a song 0 and 7: ");
-        songs.remove(0);
-        songs.remove(7);
-
-        for(Song song: songs)
-        {
-            song.print();
-        }
         
 
 
